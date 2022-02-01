@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" type="image/x-icon" href="https://advaitrajsirga.github.io/issue-form/demon.png">
+</head>
+<body>
+    <form method="post">
+    <h1> Hello Class 5E Facing Any Issues <br>
+        Fill The form
+    </h1>
+
+<br><br>
+<div class="text">
+   <b> <label for="username">Name:</label>
+        <input type="text" id="username" name="username" required>
+    <br><br>
+    <label for="cre">Credentials</label>
+    <input type="number" name="cre" id="" required>
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="Email" id="email" required>
+        <br><br>
+    <p>Designation</p>
+    <label for="student">Student</label>
+<input type="checkbox" name="student" id="">
+<label for="teacher">Teacher</label>
+<input type="checkbox" name="teacher" id="">
+<p>Gender</p>
+<label for="Male">Male</label>
+<input type="checkbox" name="Male" id="">
+<label for="female">Female</label>
+<input type="checkbox" name="female" id="">
+</br><br>
+
+s<label name for="username1">Type what is the issue</label> <br><br>
+    <textarea required id="username1" name="Issue:"></textarea>
+</div>
+<br><br>
+<input type="reset" value="Reset">
+<br>
+<button type="submit">submit</button>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+body{
+    text-align: center;
+    align-self: auto;
+    background-image: url(https://wallpaperaccess.com/full/1622640.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+form{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -330px;
+    
+}
+textarea{
+    height: 77px;
+    width: 460px;
+    background-image: linear-gradient(greenyellow, green);
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+.text{
+    color: greenyellow;
+    font-weight: bold   ;
+    font-family: 'Lato', sans-serif;
+    
+
+}
+
+label:nth-child(1):hover{
+        cursor: context-menu;
+}
+
+h1{
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 60%;
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    animation: title 3s ease-in-out infinite;
+    color: greenyellow;
+    
+}
+input{
+    background-image: linear-gradient(greenyellow, green);
+        opacity: 0.9;
+    border-radius: 3px;
+}
+
+input[type="reset"]{
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(greenyellow, green);
+}
+
+button{
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(greenyellow, green);
+}
+
+select, option{
+    background-image: linear-gradient(greenyellow, green);
+    border-radius: 3px;
+    
+}
+
+button:hover{
+    background-color:  lightcyan;
+}
+
+
+
+.unit{
+    position: absolute;
+    /* left: 300px;
+    top: 200px; */
+    width: 10px;
+    height: 10px;
+    background-color: #f3ef53;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(115,175,64,1),
+                0 0 15px rgba(94,159,61,1),
+                0 0 20px rgba(115,175,64,1),
+                0 0 25px rgba(94,159,61,1);
+}
+
+</style>
+</form>
+</body>
+</html>
