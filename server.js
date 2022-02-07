@@ -31,7 +31,7 @@ let mailTransporter = nodemailer.createTransport({
 
 
 app.post('/send', upload.single('myFile'), (req, res) => {
-var subName = req.body.Name
+var subName = req.body.username
 var print = req.body
 console.log(print)
 
@@ -57,5 +57,5 @@ mailTransporter.sendMail(mailDetails, function(err, data) {
   }
 });
 
-res.send("Hello " + subName + ", Thank you for feedback")
+res.send("Hello " + subName + ", Thank you, and wait untill we send you what to do.")
 });
